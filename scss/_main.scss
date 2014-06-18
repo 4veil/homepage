@@ -2,22 +2,13 @@
 	background: #E7E6E6;
 	color: #255B4F;
 	font-size: 2em;
-    display:inline-block;   
+    display: inline-block;
     width:100%;
-    max-height: 10%;
     position:fixed;
     top:0;
     left:0;
     z-index: 999;
-
     text-align: right;
-
-
-	// -o-transition:.5s;
-	//   -ms-transition:.5s;
-	//   -moz-transition:.5s;
-	//   -webkit-transition:.5s;
-	//  transition:.5s;
 
 	a {
 		color: #255B4F;
@@ -29,6 +20,9 @@
 		list-style-type: none;
 	}
 
+	@media #{$small-only} {
+		display: none;
+	}
 }
 
 #homepage-hero {
@@ -36,8 +30,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 85%;
-	min-height: 500px;
+	height: 100% !important;
 
 	h1 {
 		font-size: 6em;
@@ -46,6 +39,10 @@
 		margin-bottom: 0px;
 		line-height: 100%;
 		text-align: center;
+
+		@media #{$small-only} {
+			font-size: 4em;
+		}
 	}
 }
 
@@ -61,40 +58,130 @@
     background-image: url('http://placekitten.com/g/200/300');
     background-size: cover;
     box-sizing: padding-box;
-    margin: 0px auto;
+    margin: 0px auto 30px;
+
+	@media #{$small-only} {
+		width: 200px;
+		height: 200px;
+	}
 }
 
-#profile-title {
+#hero-title {
 	margin: 20px auto;
 	background: #5A845A;
 	padding: 20px 0;
 	text-align: center;
 	max-width: 300px;
-	min-width: 270px;
 	font-size: 1.3em;
 	color: #255B4F;
 	border: 5px solid #255B4F;
-	
-	-o-transition:.5s;
-	  -ms-transition:.5s;
-	  -moz-transition:.5s;
-	  -webkit-transition:.5s;
-	 transition:.5s;
 
-	&:hover {
-			color: #255B4F;
-			border: 5px solid #255B4F;
-		}
+	@media #{$small-only} {
+		
+	}
 }
 
-.content {
-	padding: 50px 0;
+.content-title {
+	margin: 20px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 60%;
+	font-size: 1.3em;
+	color: #5A845A;
+	border: 5px solid #5A845A;
+
+	@media #{$small-only} {
+		width: 75%;
+		font-size: 1.2em;
+	}
+}
+
+.content, footer {
+	padding: 100px 0;
 	background: #fff;
+	text-align: center;
+
+	h2	{
+		padding: 0;
+		margin: 0;
+	}
+
+	p {
+		font-size:1.4em;
+
+		@media #{$small-only} {
+			font-size: 1.1em;
+		}
+	}
 }
 
-img.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+footer {
+	background: #8BA08B;
 }
+
+#skills {
+	background: #F1F0F0;
+	text-align: left;
+	padding: 100px 0;
+
+}
+
+.skill-wrapper {
+	padding-bottom: 20px;
+}
+
+.progress-bar {
+	text-align: left;
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 100%!important;
+    margin: 10px 0;         
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+}
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out;    
+}
+
+.blue span {
+    background-color: #34c2e3;   
+}
+
+.orange span {
+      background-color: #fecf23;
+      background-image: linear-gradient(top, #fecf23, #fd9215);  
+}   
+
+.green span {
+      background-color: #a5df41;
+      background-image: linear-gradient(top, #a5df41, #4ca916);  
+}
+
+
+//gallery
+
+
+.row > .gallery-wrapper {
+	width: 800px !important;
+	margin: 0 auto;
+}
+
+.project {
+	display: inline-block;
+	width: 250px;
+	height: 100px;
+	margin-bottom: 10px;
+
+	img {
+		vertical-align: baseline;
+	}
+}
+
+
 

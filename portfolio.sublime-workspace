@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
-				"req",
-				"requiredField"
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"inlin",
+				"inline-block"
 			],
 			[
 				"margin",
@@ -13,7 +21,23 @@
 			],
 			[
 				"padding",
-				"padding"
+				"padding-right"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"main-",
+				"main-nav"
+			],
+			[
+				"main",
+				"main-nav"
+			],
+			[
+				"req",
+				"requiredField"
 			],
 			[
 				"backg",
@@ -22,10 +46,6 @@
 			[
 				"background",
 				"background"
-			],
-			[
-				"inline",
-				"inline-block"
 			],
 			[
 				"class",
@@ -59,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1081,
+				"buffer_size": 3996,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +87,7 @@
 			"file": "scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 1178,
+				"buffer_size": 2721,
 				"line_ending": "Windows"
 			}
 		}
@@ -120,8 +140,14 @@
 	},
 	"file_history":
 	[
-		"/D/wamp/www/Portfolio2/css/test.css",
+		"/D/wamp/www/portfolio/scss/_settings.scss",
 		"/D/wamp/www/portfolio/scss/app.scss",
+		"/D/wamp/www/portfolio/scss/_main.scss",
+		"/D/wamp/www/portfolio/js/skrollr.js",
+		"/D/wamp/www/portfolio/js/jPushMenu.js",
+		"/D/wamp/www/portfolio/scss/_jPushMenu.scss",
+		"/D/wamp/www/portfolio/js/bigSlide.js",
+		"/D/wamp/www/Portfolio2/css/test.css",
 		"/D/wamp/www/homepage/index.php",
 		"/D/wamp/www/homepage/scss/_homepage.scss",
 		"/D/wamp/www/portfolio/bower.json",
@@ -189,6 +215,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/>\n",
+			";\n",
 			"contact.php",
 			".co.uk",
 			"      <div class=\"row\">\n        <div class=\"large-12 columns\">\n          \n        </div>\n      </div>",
@@ -221,7 +249,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -229,15 +257,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1081,
+						"buffer_size": 3996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								900,
-								900
+								3539,
+								3539
 							]
 						],
 						"settings":
@@ -488,7 +516,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1106.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -498,15 +526,15 @@
 					"file": "scss/_main.scss",
 					"settings":
 					{
-						"buffer_size": 1178,
+						"buffer_size": 2721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								733,
-								733
+								1651,
+								1651
 							]
 						],
 						"settings":
@@ -755,7 +783,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1176.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
