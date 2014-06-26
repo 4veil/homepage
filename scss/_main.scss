@@ -27,7 +27,14 @@
 
 #homepage-hero {
 	background: #5A845A;
-	display: flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
 	align-items: center;
 	justify-content: center;
 	height: 100% !important;
@@ -97,7 +104,7 @@
 }
 
 .content, footer {
-	padding: 100px 0;
+	padding: 75px 0;
 	background: #fff;
 	text-align: center;
 
@@ -113,6 +120,10 @@
 			font-size: 1.1em;
 		}
 	}
+
+	@media #{$small-only} {
+		padding: 50px 0;
+	}
 }
 
 footer {
@@ -122,7 +133,7 @@ footer {
 #skills {
 	background: #F1F0F0;
 	text-align: left;
-	padding: 100px 0;
+	padding: 75zpx 0;
 
 }
 
@@ -168,20 +179,55 @@ footer {
 
 
 .row > .gallery-wrapper {
-	width: 800px !important;
+	width: 750px !important;
 	margin: 0 auto;
+
+	@media #{$medium-only} {
+		width: 650px !important;
+	}
+
+	@media #{$small-only} {
+		width: 300px !important;
+	}
 }
 
 .project {
 	display: inline-block;
-	width: 250px;
-	height: 100px;
-	margin-bottom: 10px;
+	width: 245px;
+	height: 180px;
+
+	@media #{$medium-only} {	
+		width: 320px;
+		height: 190px;
+	}
+
+	@media #{$small-only} {
+		width: 90%;
+		height: 70px;
+	}
 
 	img {
 		vertical-align: baseline;
+		width: auto;	
+		height: auto;
 	}
 }
 
+.test {
+	background-image: url('http://placekitten.com/g/600/300');
+	background-position:center; 
+}
+
+footer {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+
+	ul {
+		list-style-type:none;
+	}
+
+}  
 
 

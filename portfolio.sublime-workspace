@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
 				"paddin",
 				"padding-bottom"
 			],
@@ -79,7 +95,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3996,
+				"buffer_size": 3743,
 				"line_ending": "Unix"
 			}
 		},
@@ -87,7 +103,7 @@
 			"file": "scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 2721,
+				"buffer_size": 3577,
 				"line_ending": "Windows"
 			}
 		}
@@ -140,6 +156,7 @@
 	},
 	"file_history":
 	[
+		"/D/Torrent Downloads/Adobe Illustrator CC 17.1 Final Multilanguage [ChingLiu]/crack/VR.nfo",
 		"/D/wamp/www/portfolio/scss/_settings.scss",
 		"/D/wamp/www/portfolio/scss/app.scss",
 		"/D/wamp/www/portfolio/scss/_main.scss",
@@ -215,6 +232,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
 			"/>\n",
 			";\n",
 			"contact.php",
@@ -257,15 +275,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3996,
+						"buffer_size": 3743,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3539,
-								3539
+								2451,
+								2451
 							]
 						],
 						"settings":
@@ -516,7 +534,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1106.0,
+						"translation.y": 490.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -526,15 +544,15 @@
 					"file": "scss/_main.scss",
 					"settings":
 					{
-						"buffer_size": 2721,
+						"buffer_size": 3577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1651,
-								1651
+								2041,
+								2041
 							]
 						],
 						"settings":
@@ -783,7 +801,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1176.0,
+						"translation.y": 1289.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -846,7 +864,7 @@
 		[
 			[
 				"",
-				"/D/wamp/www/homepage/homepage.sublime-project"
+				"/D/wamp/www/ajb4/ajb.sublime-project"
 			]
 		],
 		"width": 380.0
