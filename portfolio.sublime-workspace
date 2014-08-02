@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pr",
+				"project"
+			],
+			[
 				"min",
 				"min-width"
 			],
@@ -95,7 +99,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3743,
+				"buffer_size": 4664,
 				"line_ending": "Unix"
 			}
 		},
@@ -103,7 +107,7 @@
 			"file": "scss/_main.scss",
 			"settings":
 			{
-				"buffer_size": 3577,
+				"buffer_size": 4890,
 				"line_ending": "Windows"
 			}
 		}
@@ -232,6 +236,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main-nav",
 			"img",
 			"/>\n",
 			";\n",
@@ -275,15 +280,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3743,
+						"buffer_size": 4664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2451,
-								2451
+								0,
+								0
 							]
 						],
 						"settings":
@@ -534,7 +539,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 490.0,
+						"translation.y": 950.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -544,15 +549,15 @@
 					"file": "scss/_main.scss",
 					"settings":
 					{
-						"buffer_size": 3577,
+						"buffer_size": 4890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2041,
-								2041
+								0,
+								0
 							]
 						],
 						"settings":
@@ -801,7 +806,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1289.0,
+						"translation.y": 3324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

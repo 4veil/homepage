@@ -1,4 +1,4 @@
-.main-nav {	
+.main-nav {
 	background: #E7E6E6;
 	color: #255B4F;
 	font-size: 2em;
@@ -12,7 +12,7 @@
 
 	a {
 		color: #255B4F;
-		margin-right: 100px;
+		margin-right: 50px;
 	}
 
 	li {
@@ -25,7 +25,7 @@
 	}
 }
 
-#homepage-hero {
+#homepage-hero, .page-header {
 	background: #5A845A;
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -37,7 +37,7 @@
 	-webkit-align-items: center;
 	align-items: center;
 	justify-content: center;
-	height: 100% !important;
+	height: 100%;
 
 	h1 {
 		font-size: 6em;
@@ -51,6 +51,16 @@
 			font-size: 4em;
 		}
 	}
+}
+
+.page-header {
+    background: #5A845A;
+    height: 300px;
+    padding-top: 92px;
+
+    h1 {
+        font-size: 4em;
+    }
 }
 
 .wrapper {
@@ -84,7 +94,7 @@
 	border: 5px solid #255B4F;
 
 	@media #{$small-only} {
-		
+
 	}
 }
 
@@ -133,12 +143,16 @@ footer {
 #skills {
 	background: #F1F0F0;
 	text-align: left;
-	padding: 75zpx 0;
+	padding: 75px 0;
 
 }
 
 .skill-wrapper {
 	padding-bottom: 20px;
+
+    h3 {
+        font-size: 1.4em;
+    }
 }
 
 .progress-bar {
@@ -147,31 +161,29 @@ footer {
     height: 25px;
     padding: 5px;
     width: 100%!important;
-    margin: 10px 0;         
-    border-radius: 5px;
-    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+    margin: 10px 0;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
 }
 
 .progress-bar span {
     display: inline-block;
     height: 100%;
-    border-radius: 3px;
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
-    transition: width .4s ease-in-out;    
+    transition: width .4s ease-in-out;
 }
 
 .blue span {
-    background-color: #34c2e3;   
+    background-color: #34c2e3;
 }
 
 .orange span {
       background-color: #fecf23;
-      background-image: linear-gradient(top, #fecf23, #fd9215);  
-}   
+      background-image: linear-gradient(top, #fecf23, #fd9215);
+}
 
 .green span {
       background-color: #a5df41;
-      background-image: linear-gradient(top, #a5df41, #4ca916);  
+      background-image: linear-gradient(top, #a5df41, #4ca916);
 }
 
 
@@ -179,11 +191,11 @@ footer {
 
 
 .row > .gallery-wrapper {
-	width: 750px !important;
+	//width: 750px !important;
 	margin: 0 auto;
 
 	@media #{$medium-only} {
-		width: 650px !important;
+		//width: 650px !important;
 	}
 
 	@media #{$small-only} {
@@ -192,30 +204,69 @@ footer {
 }
 
 .project {
-	display: inline-block;
+    position: relative;
+    display: inline-block;
 	width: 245px;
 	height: 180px;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+    background: none no-repeat scroll center center / cover #FFF;
+    border: 3px solid #8BA08B;
 
-	@media #{$medium-only} {	
-		width: 320px;
+	@media #{$medium-only} {
+		width: 190px;
 		height: 190px;
 	}
 
 	@media #{$small-only} {
-		width: 90%;
-		height: 70px;
+		width: 80%;
+		height: 150px;
+        margin: 0 0 10px;
 	}
 
 	img {
-		vertical-align: baseline;
-		width: auto;	
-		height: auto;
+	  display: block;
+	  margin: 0;
+	  padding: 0;
+	  max-width: 100%;
+	  height: auto;
 	}
 }
 
-.test {
-	background-image: url('http://placekitten.com/g/600/300');
-	background-position:center; 
+.ajb {
+    background: url('../img/projects/ajbtimber.png');
+}
+
+.project-hover-text {
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.6);
+    border: 3px solid #8BA08B;
+
+    h4 {
+        font-size: 30px;
+        color: #fff;
+        margin-top: 17%;
+    }
+
+    a {
+        width: 50%;
+        display: inline-block;
+        color: white;
+        padding: 10px;
+        background: #5A845A;
+        transition: border-radius  .5s;
+
+        &:hover {
+            transition: border-radius  .5s;
+            border-radius: 10px;
+        }
+    }
 }
 
 footer {
@@ -226,8 +277,8 @@ footer {
 
 	ul {
 		list-style-type:none;
+        margin-bottom: 0;
 	}
 
-}  
-
+}
 
