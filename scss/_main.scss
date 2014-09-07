@@ -36,7 +36,6 @@
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
-	justify-content: center;
 	height: 100%;
 
 	h1 {
@@ -152,6 +151,7 @@ footer {
 
     h3 {
         font-size: 1.4em;
+        padding-left: 27px;
     }
 }
 
@@ -160,9 +160,11 @@ footer {
     background-color: #1a1a1a;
     height: 25px;
     padding: 5px;
-    width: 100%!important;
-    margin: 10px 0;
+    width: 85%!important;
     box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .progress-bar span {
@@ -183,6 +185,11 @@ footer {
 
 .green span {
       background-color: #a5df41;
+      background-image: linear-gradient(top, #a5df41, #4ca916);
+}
+
+.red span {
+      background-color: red;
       background-image: linear-gradient(top, #a5df41, #4ca916);
 }
 
@@ -252,6 +259,10 @@ footer {
         font-size: 30px;
         color: #fff;
         margin-top: 17%;
+
+        @media #{$small-only} {
+            margin-top: 7%;
+        }
     }
 
     a {
@@ -260,25 +271,45 @@ footer {
         color: white;
         padding: 10px;
         background: #5A845A;
-        transition: border-radius  .5s;
 
         &:hover {
-            transition: border-radius  .5s;
-            border-radius: 10px;
+            transition: background  .5s;
+            background: #517751;
         }
+    }
+
+
+}
+
+#project_one {
+    background: #f1f1f1;
+    padding-top: 0;
+
+    h3 {
+        text-align: center;
     }
 }
 
 footer {
 	img {
-		width: 50px;
-		height: 50px;
+		width: 40px;
+		height: 40px;
 	}
 
 	ul {
 		list-style-type:none;
         margin-bottom: 0;
+        margin: 0;
 	}
+
+    li {
+        display: inline;
+        padding: 0 5px;
+    }
+
+    h5 {
+        padding-top: 10px;
+    }
 
 }
 
